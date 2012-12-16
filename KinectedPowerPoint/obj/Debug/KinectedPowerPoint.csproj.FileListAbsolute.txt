@@ -1,0 +1,15 @@
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\bin\Debug\KinectedPowerPoint.exe.config
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\bin\Debug\KinectedPowerPoint.exe
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\bin\Debug\KinectedPowerPoint.pdb
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\KinectedPowerPoint.csprojResolveAssemblyReference.cache
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\MainWindow.baml
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\MainWindow.g.cs
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\App.g.cs
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\KinectedPowerPoint_MarkupCompile.cache
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\KinectedPowerPoint.g.resources
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\KinectedPowerPoint.Properties.Resources.resources
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\KinectedPowerPoint.csproj.GenerateResource.Cache
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\KinectedPowerPoint.exe
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\KinectedPowerPoint.pdb
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\bin\Debug\Microsoft.Kinect.Toolkit.dll
+D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\bin\Debug\Microsoft.Kinect.Toolkit.pdb
