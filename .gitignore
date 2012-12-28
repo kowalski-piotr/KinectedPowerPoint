@@ -1,2 +1,4 @@
-bin
-obj
+KinectedPowerPoint/bin/
+KinectedPowerPoint/obj/
+*.sln
+*.suo
