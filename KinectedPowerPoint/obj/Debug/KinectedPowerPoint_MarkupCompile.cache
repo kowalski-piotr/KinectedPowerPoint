@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\
+C:\Projects\KinectedPowerPoint\KinectedPowerPoint\obj\Debug\
 KinectedPowerPoint
 none
 false
 DEBUG;TRACE
-D:\Dokumenty\Migam\Projekty\KinectedPowerPoint\KinectedPowerPoint\App.xaml
-11151548125
+C:\Projects\KinectedPowerPoint\KinectedPowerPoint\App.xaml
+2424433787
 
-5-2017746502
-14-1592369666
-MainWindow.xaml;
+171083371359
+171167575320
+IndicatorWindow.xaml;SettingsWindow.xaml;
 
 False
 

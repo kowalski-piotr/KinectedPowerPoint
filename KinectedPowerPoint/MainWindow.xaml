@@ -1,9 +1,0 @@
-﻿<Window x:Class="KinectedPowerPoint.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:toolkit="clr-namespace:Microsoft.Kinect.Toolkit;assembly=Microsoft.Kinect.Toolkit"
-        Title="Kinected PowerPoint" Height="350" Width="525" Loaded="Window_Loaded">
-    <Grid>
-        <toolkit:KinectSensorChooserUI x:Name="SensorChooserUI" IsListening="False"  HorizontalAlignment="Left" VerticalAlignment="Top" />
-    </Grid>
-</Window>

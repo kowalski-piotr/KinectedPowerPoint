@@ -1,0 +1,116 @@
+﻿<Window x:Class="KinectedPowerPoint.SettingsWindow"
+        x:Name="settingsWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:custom="clr-namespace:KinectedPowerPoint"
+
+        Left="{Binding Path=CenterPosition, ElementName=settingsWin}"
+        Title="SettingsWindow" Height="200" Width="200" Top="30" ResizeMode="NoResize" MaxHeight="200" MaxWidth="200" WindowStyle="None" Background="#00bcf2" Topmost="True">
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="DarkNeutralBrush">#505050</SolidColorBrush>
+        <FontFamily x:Key="KinectFont">Segoe UI</FontFamily>
+        <sys:Double x:Key="ItemFontSize">12.0</sys:Double>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- CAMERA ANGLE -->
+        <DockPanel Grid.Row="0" Grid.ColumnSpan="2"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center">
+            <TextBlock Foreground="{StaticResource DarkNeutralBrush}" 
+                       FontSize="{StaticResource ItemFontSize}"  
+                       FontFamily="{StaticResource KinectFont}"
+                       Text="Camera angle"/>
+        </DockPanel>
+        <Slider Grid.Row="0" Grid.ColumnSpan="2"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Bottom" 
+                Width="150" 
+                Maximum="27" 
+                Minimum="-27"
+                Value="{Binding CameraAngle, ElementName=settingsWin}" />
+
+        <!-- LENGTH -->
+        <DockPanel Grid.Row="1" Grid.Column="0" 
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center">
+            <TextBlock Foreground="{StaticResource DarkNeutralBrush}" 
+                       FontSize="{StaticResource ItemFontSize}"  
+                       FontFamily="{StaticResource KinectFont}"
+                       Text="Gesture length"/>
+        </DockPanel>
+        <Slider Grid.Row="1" Grid.Column="0"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Bottom" 
+                Width="90" 
+                Maximum="0.6" 
+                Minimum="0.1"
+                Value="{Binding GestureLength, ElementName=settingsWin}" 
+                TickFrequency="0.1" 
+                LargeChange="0.1" />
+
+        <!-- DURATION -->
+        <DockPanel Grid.Row="1" Grid.Column="1" 
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center">
+            <TextBlock Foreground="{StaticResource DarkNeutralBrush}" 
+                       FontSize="{StaticResource ItemFontSize}"  
+                       FontFamily="{StaticResource KinectFont}"
+                       Text="Gesture duration"/>
+        </DockPanel>
+        <Slider Grid.Row="1" Grid.Column="1"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Bottom" 
+                Width="90" 
+                Maximum="600" 
+                Minimum="200"
+                Value="{Binding GestureDuration, ElementName=settingsWin}"
+                TickFrequency="10" 
+                LargeChange="50" />
+
+        <!-- TOPMOST -->
+        <DockPanel Grid.Row="2" Grid.ColumnSpan="2"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center">
+            <TextBlock Foreground="{StaticResource DarkNeutralBrush}" 
+                       FontSize="{StaticResource ItemFontSize}"  
+                       FontFamily="{StaticResource KinectFont}"
+                       Text="Always on top"/>
+        </DockPanel>
+        <CheckBox Grid.Row="2" Grid.ColumnSpan="2"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Bottom" 
+                IsChecked="{Binding TopMost}"/>
+
+        <!-- SAVE BUTTON -->
+        <Button Grid.Row="3" Grid.ColumnSpan="2"
+                Width="50"
+                Height="30"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Background="Transparent"
+                Name="btnSave" 
+                Click="OnSaveClick" 
+                BorderThickness="0">
+            <TextBlock Foreground="{StaticResource DarkNeutralBrush}" 
+                       FontSize="{StaticResource ItemFontSize}"  
+                       FontFamily="{StaticResource KinectFont}"
+                       Text="Save"/>
+        </Button>
+
+
+    </Grid>
+</Window>
